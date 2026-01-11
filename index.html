@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="assets/flip.png" alt="flipkart logo">
+        <div class="search">
+            <img class="search-icon" src="assets/search.png" alt="search icon">
+            <span>Search for Products, Brands And More</span>
+        </div>
+        <div class="icons">
+            <img class="icon" src="assets/login.png" alt="login icon">
+            <img class="icon" src="assets/cart1.webp" alt="cart icon">
+            <img class="icon" src="assets/more.png" alt="more icon">
+        </div>
+    </header>
+    <nav class="menu" aria-label="Main menu">
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/home.png" alt="home">Home</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/electronics.webp" alt="electronics">Electronics</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/tv%20appl.webp" alt="tv appliances">TVs & Appliances</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/mobiles.webp" alt="mobiles">Mobiles</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/fashion.avif" alt="fashion">Fashion</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/beauty.jpg" alt="beauty">Beauty</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/grocery.webp" alt="grocery">Grocery</a>
+        <a class="menu-item" href="#"><img class="menu-icon" src="assets/offer.png" alt="offers">Offers</a>
+    </nav>
+
+    <section class="slideshow" aria-label="Homepage slideshow">
+        <div class="slides">
+            <div class="slide active">
+                <img src="assets/slide1.webp" alt="Slide 1">
+                <div class="caption">Big Fashion Sale</div>
+            </div>
+            <div class="slide">
+                <img src="assets/slide3.webp" alt="Slide 2">
+                <div class="caption">Up to 50% Off</div>
+            </div>
+            <div class="slide">
+                <img src="assets/slide2.webp" alt="Slide 3">
+                <div class="caption">New Arrivals</div>
+            </div>
+            <div class="slide">
+                <img src="assets/slide4.webp" alt="Slide 4">
+                <div class="caption">Limited Time Deal</div>
+            </div>
+            <div class="slide">
+                <img src="assets/slide5.webp" alt="Slide 5">
+                <div class="caption">Free Delivery Today</div>
+            </div>
+        </div>
+        <button class="prev" aria-label="Previous slide">&#10094;</button>
+        <button class="next" aria-label="Next slide">&#10095;</button>
+        <div class="dots">
+            <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+            <button class="dot" data-index="1" aria-label="Slide 2"></button>
+            <button class="dot" data-index="2" aria-label="Slide 3"></button>
+            <button class="dot" data-index="3" aria-label="Slide 4"></button>
+            <button class="dot" data-index="4" aria-label="Slide 5"></button>
+        </div>
+    </section>
+    
+    <section class="top-deals" aria-label="Top deals">
+        <div class="container">
+            <h2 class="section-title">Top Deals</h2>
+            <div class="deals-grid">
+                <a class="deal" href="#">
+                    <img src="assets/topdeal1.webp" alt="Top deal 1">
+                    <div class="deal-title">Projectors from 1999</div>
+                </a>
+                <a class="deal" href="#">
+                    <img src="assets/electronics.webp" alt="Top deal 2">
+                    <div class="deal-title">Electronics Accessories from 1299</div>
+                </a>
+                <a class="deal" href="#">
+                    <img src="assets/topdeal3.webp" alt="Top deal 3">
+                    <div class="deal-title">Monitors From 2999</div>
+                </a>
+                <a class="deal" href="#">
+                    <img src="assets/opdeal4.webp" alt="Top deal 4">
+                    <div class="deal-title">Cameras from 4199</div>
+                </a>
+                <a class="deal" href="#">
+                    <img src="assets/topdeal5.webp" alt="Top deal 5">
+                    <div class="deal-title">Watches from 599</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="promo-row" aria-label="Promotional sections">
+        <div class="promo-container">
+            <div class="promo-card">
+                <div class="promo-content">
+                    <h3>Winter Essentials</h3>
+                    <p class="discount">Up to 60% Off</p>
+                    <div class="promo-images">
+                        <img src="assets/menjacket.webp" alt="Winter jacket">
+                        <img src="assets/socks.webp" alt="Winter socks">
+                        <img src="assets/caps.webp" alt="Winter caps">
+                        <img src="assets/waterbottle.webp" alt="Water bottle">
+                    </div>
+                </div>
+            </div>
+            <div class="promo-card">
+                <div class="promo-content">
+                    <h3>Fashion Top Deals</h3>
+                    <p class="discount">Up to 50% Off</p>
+                    <div class="promo-images">
+                        <img src="assets/sportshoe.webp" alt="Sport shoes">
+                        <img src="assets/casualshoes.webp" alt="Casual shoes">
+                        <img src="assets/slippers.webp" alt="Slippers">
+                        <img src="assets/wristwatch.webp" alt="Wristwatch">
+                    </div>
+                </div>
+            </div>
+            <div class="promo-card promo-shop-now">
+                <img src="assets/shopnow.webp" alt="Shop Now" class="shop-now-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="top-stories" aria-label="Top stories">
+        <div class="stories-container">
+            <h2 class="stories-title">Top Stories</h2>
+            <p class="stories-subtitle">Most Searches on Flipkart</p>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <h3 class="category-title">Mobiles</h3>
+                    <ul class="category-items">
+                        <li><a href="#">iPhone 15</a></li>
+                        <li><a href="#">Samsung Galaxy S24</a></li>
+                        <li><a href="#">OnePlus 12</a></li>
+                        <li><a href="#">Xiaomi 14</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card">
+                    <h3 class="category-title">Camera</h3>
+                    <ul class="category-items">
+                        <li><a href="#">Canon EOS R5</a></li>
+                        <li><a href="#">Sony A7IV</a></li>
+                        <li><a href="#">Nikon Z9</a></li>
+                        <li><a href="#">GoPro Hero 12</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card">
+                    <h3 class="category-title">Laptop</h3>
+                    <ul class="category-items">
+                        <li><a href="#">MacBook Pro M3</a></li>
+                        <li><a href="#">Dell XPS 15</a></li>
+                        <li><a href="#">HP Pavilion 15</a></li>
+                        <li><a href="#">Lenovo ThinkPad</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card">
+                    <h3 class="category-title">Furniture</h3>
+                    <ul class="category-items">
+                        <li><a href="#">Wooden Dining Table</a></li>
+                        <li><a href="#">Office Chair</a></li>
+                        <li><a href="#">Sofa Set</a></li>
+                        <li><a href="#">Bed Frame</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card">
+                    <h3 class="category-title">Clothing</h3>
+                    <ul class="category-items">
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Dresses</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card">
+                    <h3 class="category-title">Bestselling</h3>
+                    <ul class="category-items">
+                        <li><a href="#">Power Banks</a></li>
+                        <li><a href="#">Earbuds</a></li>
+                        <li><a href="#">Screen Protectors</a></li>
+                        <li><a href="#">Phone Cases</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-flipkart" aria-label="About Flipkart">
+        <div class="about-container">
+            <h2 class="about-title">About Flipkart</h2>
+            
+            <div class="info-cards-grid">
+                <div class="info-card">
+                    <div class="info-icon">🛍️</div>
+                    <h3>What You Can Buy</h3>
+                    <p>From electronics and fashion to home appliances, furniture, books, beauty products, and groceries—Flipkart offers a wide range of products across all categories. Shop for the latest trends, bestselling items, and exclusive deals all in one place.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">🎁</div>
+                    <h3>Loyalty & Rewards Program</h3>
+                    <p>Join Flipkart Plus to unlock exclusive benefits, early access to sales, free shipping, and special member-only deals. Earn SuperCoins on every purchase and redeem them for discounts and rewards. Build your loyalty and save more with every transaction.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">💳</div>
+                    <h3>Payments & Affordable</h3>
+                    <p>Shop worry-free with multiple payment options including credit cards, debit cards, UPI, digital wallets, and EMI options. Get cashback offers, instant discounts, and No Cost EMI on select products. Flipkart ensures safe, secure transactions and affordable shopping for all.</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">🛒</div>
+                    <h3>Flipkart Grocery</h3>
+                    <p>Get fresh fruits, vegetables, grains, dairy, and pantry essentials delivered to your doorstep daily. Flipkart Grocery offers a vast selection of quality products at competitive prices with quick delivery. Save time and money with our convenient online grocery shopping experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>About Flipkart</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Return & Exchange</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Complaint Centre</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Help & Consumer Policy</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Consumer Protection</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Mail Us</h4>
+                    <p>Flipkart Customer Service<br>support@flipkart.com<br>help.flipkart.com</p>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Office Address</h4>
+                    <p>Flipkart Internet Private Limited<br>Bangalore, Karnataka<br>India - 560001</p>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">f</a>
+                        <a href="#" class="social-icon">𝕏</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">▶</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment-section">
+                <h4>Payment Methods</h4>
+                <div class="payment-cards">
+                    <div class="payment-card">
+                        <span class="card-icon">💳</span>
+                        <span>RuPay</span>
+                    </div>
+                    <div class="payment-card">
+                        <span class="card-icon">💳</span>
+                        <span>Visa</span>
+                    </div>
+                    <div class="payment-card">
+                        <span class="card-icon">💳</span>
+                        <span>MasterCard</span>
+                    </div>
+                    <div class="payment-card">
+                        <span class="card-icon">🏦</span>
+                        <span>Easy EMI</span>
+                    </div>
+                    <div class="payment-card">
+                        <span class="card-icon">📱</span>
+                        <span>UPI</span>
+                    </div>
+                    <div class="payment-card">
+                        <span class="card-icon">💰</span>
+                        <span>Wallets</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Flipkart Internet Private Limited. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="slides.js" defer></script>
+    <script src="main.js" defer></script>
+    </body>
+</html>
